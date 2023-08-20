@@ -1,0 +1,79 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  margin-top: 0;
+}
+
+nav{
+  width: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  flex-direction: row-reverse;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li{
+  list-style: none;
+  padding: 0px 5px;
+}
+
+nav ul li a{
+  color: #000000;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+@media (max-width: 1200px) {
+  nav {
+    width: 100%;
+    float: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  nav {
+    width: 100%;
+    float: none;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Montserrat:ital@1&family=Roboto:wght@300;400;500;700&display=swap');
+
+.nav__link:link { 
+  color: #000000;
+}
+.nav__link:visited {
+  color: #00ACDC;
+ }
+.nav__link:hover { 
+color: #00ACDC;
+font-weight:bold;
+text-decoration: underline;
+}
+.nav__link:active { 
+  color: #00ACDC;
+}
+
+.is-active {
+
+}
+
+.logo-link{
+ 
+}
